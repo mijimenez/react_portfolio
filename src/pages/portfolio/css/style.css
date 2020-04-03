@@ -222,7 +222,7 @@ main .card-title {
 }
 
 /* ----- Sticky Footer */
-body {
+.react-body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -233,7 +233,7 @@ body {
   height: 100vh;
 }
 
-body .main {
+.react-body .react-main {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
@@ -329,30 +329,7 @@ body .main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-#portfolio main .boxes .box-container .box .thumbnail1 {
-  background: #000 url("") no-repeat top center/cover;
-}
-
-#portfolio main .boxes .box-container .box .thumbnail2 {
-  background: #000 url("") no-repeat top center/cover;
-}
-
-#portfolio main .boxes .box-container .box .thumbnail3 {
-  background: #000 url("") no-repeat top center/cover;
-}
-
-#portfolio main .boxes .box-container .box .thumbnail4 {
-  background: #000 url("") no-repeat top center/cover;
-}
-
-#portfolio main .boxes .box-container .box .thumbnail5 {
-  background: #000 url("") no-repeat top center/cover;
-}
-
-#portfolio main .boxes .box-container .box .thumbnail6 {
-  background: #000 url("") no-repeat top center/cover;
+  background: #000 no-repeat top center/cover;
 }
 
 #portfolio main .boxes .box-container .box-overlay {
@@ -367,94 +344,14 @@ body .main {
   transition: all .5s;
 }
 
-#portfolio main .boxes .box-container .box-overlay::before {
-  content: 'Work Title';
+#portfolio main .boxes .box-container .box-overlay .title {
   color: #fff;
   font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  position: absolute;
-  font-size: 1.8em;
-  width: 100%;
-  bottom: 12%;
-  left: 5%;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
-}
-
-#portfolio main .boxes .box-container .box-overlay::after {
-  content: 'Work Description';
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-  position: absolute;
-  font-size: 1.3em;
-  width: 100%;
-  bottom: 5%;
-  left: 5%;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  text-align: center;
+  margin-top: 45%;
 }
 
 #portfolio main .boxes .box-container .box-overlay:hover {
   opacity: 1;
-}
-
-#portfolio main .boxes .box-container .box-overlay:hover::before {
-  opacity: 1;
-  font-size: 1.5em;
-}
-
-#portfolio main .boxes .box-container .box-overlay:hover::after {
-  opacity: 1;
-  font-size: 1em;
-}
-
-#portfolio main .boxes .box-container .box-overlay1::before {
-  content: 'Pack-It';
-}
-
-#portfolio main .boxes .box-container .box-overlay1::after {
-  content: 'Collaboration';
-}
-
-#portfolio main .boxes .box-container .box-overlay2::before {
-  content: 'Weather Dashboard';
-}
-
-#portfolio main .boxes .box-container .box-overlay2::after {
-  content: 'Individual';
-}
-
-#portfolio main .boxes .box-container .box-overlay3::before {
-  content: 'Code Quiz';
-}
-
-#portfolio main .boxes .box-container .box-overlay3::after {
-  content: 'Individual';
-}
-
-#portfolio main .boxes .box-container .box-overlay4::before {
-  content: 'Team Profile Generator';
-}
-
-#portfolio main .boxes .box-container .box-overlay4::after {
-  content: 'Individual';
-}
-
-#portfolio main .boxes .box-container .box-overlay5::before {
-  content: 'Burgers';
-}
-
-#portfolio main .boxes .box-container .box-overlay5::after {
-  content: 'Individual';
-}
-
-#portfolio main .boxes .box-container .box-overlay6::before {
-  content: 'Good Cuisine';
-}
-
-#portfolio main .boxes .box-container .box-overlay6::after {
-  content: 'Collaboration';
 }
 /*# sourceMappingURL=style.css.map */

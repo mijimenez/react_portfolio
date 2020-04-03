@@ -19,7 +19,11 @@ render() {
 
             {this.state.data.map(item => (
             <PortfolioItem
+                gitHubLink={item.gitHubLink}
                 liveLink={item.liveLink}
+                image={item.image}
+                title={item.title}
+
             />
             ))}         
 

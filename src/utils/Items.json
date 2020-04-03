@@ -1,8 +1,50 @@
 [
     {
-        "liveLink": "https://jonesec2.github.io/Pack-It/"
+        "gitHubLink": "https://github.com/schoe14/Good-Cuisine",
+        "liveLink": "https://good-cuisine.herokuapp.com/",
+        "image": {
+            "background-image": "url('./assets/images/portfolio_images/good-cuisine.png')"
+        },
+        "title": "Good Cuisine"
     },
     {
-        "liveLink": "https://mijimenez.github.io/bootcamp_weather_dashboard/"
+        "gitHubLink": "https://github.com/jonesec2/Pack-It",
+        "liveLink": "https://jonesec2.github.io/Pack-It/",
+        "image": {
+            "background-image": "url('./assets/images/portfolio_images/pack-it.png')"
+        },
+        "title": "Pack-It"
+    },
+    {
+        "gitHubLink": "https://github.com/mijimenez/bootcamp_weather_dashboard",
+        "liveLink": "https://mijimenez.github.io/bootcamp_weather_dashboard/",
+        "image": {
+            "background-image": "url('./assets/images/portfolio_images/weather-dashboard.png')"
+        },
+        "title": "Weather Dashboard"
+    },
+    {
+        "gitHubLink": "https://github.com/mijimenez/bootcamp_code_quiz",
+        "liveLink": "https://mijimenez.github.io/bootcamp_code_quiz/",
+        "image": {
+            "background-image": "url('./assets/images/portfolio_images/code-quiz.png')"
+        },
+        "title": "Code Quiz"
+    },
+    {
+        "gitHubLink": "https://github.com/mijimenez/bootcamp_team_profile_generator",
+        "liveLink": "https://github.com/mijimenez/bootcamp_team_profile_generator",
+        "image": {
+            "background-image": "url('./assets/images/portfolio_images/team-generator.png')"
+        },
+        "title": "Team Profile Generator"
+    },
+    {
+        "gitHubLink": "https://github.com/mijimenez/bootcamp_burger_node_express_handlebars",
+        "liveLink": "https://gentle-fortress-17484.herokuapp.com/",
+        "image": {
+            "background-image": "url('./assets/images/portfolio_images/burgers.png')"
+        },
+        "title": "Burgers"
     }
 ]

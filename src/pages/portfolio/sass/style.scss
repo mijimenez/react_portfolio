@@ -67,25 +67,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            background: $c-black no-repeat top center / cover;
           }
-            .thumbnail1 {
-              background: $c-black url(("")) no-repeat top center / cover;
-            }
-            .thumbnail2 {
-              background: $c-black url(("")) no-repeat top center / cover;
-            }
-            .thumbnail3 {
-              background: $c-black url(("")) no-repeat top center / cover;
-            }
-            .thumbnail4 {
-              background: $c-black url(("")) no-repeat top center / cover;
-            }
-            .thumbnail5 {
-              background: $c-black url("") no-repeat top center / cover;
-            }
-            .thumbnail6 {
-              background: $c-black url("") no-repeat top center / cover;
-            }
             &-overlay {
               position: absolute;
               width: 100%;
@@ -95,89 +78,14 @@
               background:rgba(darken($c-theme, 20%), 0.9);;
               opacity: 0;
               transition: all .5s;
-              &::before {
-                content: 'Work Title';
+              .title {
                 color: $c-white;
                 font-family: $f-headings;
-                text-transform: uppercase;
-                position: absolute;
-                font-size: 1.8em;
-                width: 100%;
-                bottom: 12%;
-                left: 5%;
-                opacity: 0;
-                transition: all .5s;
-              }
-              &::after {
-                content: 'Work Description';
-                color: $c-white;
-                font-family: $f-headings;
-                position: absolute;
-                font-size: 1.3em;
-                width: 100%;
-                bottom: 5%;
-                left: 5%;
-                opacity: 0;
-                transition: all .5s;
+                text-align: center;
+                margin-top: 45%;
               }
               &:hover {
-              opacity: 1;
-                &::before {
-                  opacity: 1;
-                  font-size: 1.5em;
-                }
-                &::after {
-                  opacity: 1;
-                  font-size: 1em;
-                }
-              }
-            }
-            &-overlay1 {
-              &::before {
-                content: 'Pack-It';
-              }
-              &::after {
-                content: 'Collaboration';
-              }
-            }
-            &-overlay2 {
-              &::before {
-                content: 'Weather Dashboard';
-              }
-              &::after {
-                content: 'Individual';
-              }
-            }
-            &-overlay3 {
-              &::before {
-                content: 'Code Quiz';
-              }
-              &::after {
-                content: 'Individual';
-              }
-            }
-            &-overlay4 {
-              &::before {
-                content: 'Team Profile Generator';
-              }
-              &::after {
-                content: 'Individual';
-              }
-            }
-            &-overlay5 {
-              &::before {
-                content: 'Burgers';
-              }
-              &::after {
-                content: 'Individual';
-              }
-            }
-            &-overlay6 {
-              &::before {
-                content: 'Good Cuisine';
-              }
-              &::after {
-                content: 'Collaboration';
+                opacity: 1;
               }
             }
           }

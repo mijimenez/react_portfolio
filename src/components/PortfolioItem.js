@@ -1,15 +1,15 @@
 import React from "react";
 
-function PortfolioItem({ liveLink }) {
+function PortfolioItem({ gitHubLink, liveLink, image, title }) {
   return (
     <div className="box-container">
     <div className="box-container-icons">
-        <a href="https://github.com/mijimenez/bootcamp_weather_dashboard"  target="_blank"><i className="fab fa-github"></i></a>
+        <a href={gitHubLink}  target="_blank"><i className="fab fa-github"></i></a>
     </div>
     <div className="box">
-        <div className="thumbnail2 work-thumbnail" alt="Thumbnail Image"> 
+        <div className="work-thumbnail" alt="Thumbnail Image" style={image}> 
         </div>
-        <a className="box-overlay box-overlay2" href={liveLink}  target="_blank"></a>
+        <a className="box-overlay" href={liveLink}  target="_blank"><h2 className="title">{title}</h2></a>
     </div>
 </div>
   );
