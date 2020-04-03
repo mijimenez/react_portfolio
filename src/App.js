@@ -4,7 +4,7 @@ import Home from "./pages/home/Home";
 import Portfolio from "./pages/portfolio/Portfolio";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-import './css/App.css';
+import './App_sass/css/App.css';
 
 function App() {
   return (
@@ -13,6 +13,9 @@ function App() {
         <Nav />
         <Switch>
           <Route exact path={["/", "/home"]}>
+            <Home />
+          </Route>
+          <Route exact path="/#contactMe">
             <Home />
           </Route>
           <Route exact path="/portfolio">

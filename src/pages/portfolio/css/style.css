@@ -1,1 +1,336 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* ---------  Variables */
+/* ---------  Mixins */
+/* ---------  Setup */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fbf6f1;
+}
+
+/* ---------  Fonts */
+h1, h2, h3, h4, h5 {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 576px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+h2 {
+  color: #ed1c24;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 576px) {
+  h2 {
+    font-size: 1.875rem;
+  }
+}
+
+h3 {
+  font-weight: normal;
+  font-size: .9rem;
+}
+
+@media screen and (min-width: 767px) {
+  h3 {
+    font-size: 1.17rem;
+  }
+}
+
+h6 {
+  color: #ed1c24;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+strong {
+  color: #000;
+}
+
+p, ul, li, a, label, input[type="text"],
+textarea[type="text"], input[type="text"]::-webkit-input-placeholder, textarea[type="text"]::-webkit-input-placeholder, button[type="submit"] {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: #777;
+}
+
+p, ul, li, a, label, input[type="text"],
+textarea[type="text"], input[type="text"]:-ms-input-placeholder, textarea[type="text"]:-ms-input-placeholder, button[type="submit"] {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: #777;
+}
+
+p, ul, li, a, label, input[type="text"],
+textarea[type="text"], input[type="text"]::-ms-input-placeholder, textarea[type="text"]::-ms-input-placeholder, button[type="submit"] {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: #777;
+}
+
+p, ul, li, a, label, input[type="text"],
+textarea[type="text"], input[type="text"]::placeholder, textarea[type="text"]::placeholder, button[type="submit"] {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: #777;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: .4s all;
+  transition: .4s all;
+}
+
+a:hover, a:active {
+  color: #ed1c24;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 8em;
+}
+
+main .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .boxes .box-container {
+  width: 100%;
+  position: relative;
+}
+
+main .boxes .box-container-icons {
+  position: absolute;
+  width: 100%;
+  top: 5%;
+  left: 5%;
+  z-index: 1;
+}
+
+main .boxes .box-container-icons a i {
+  background-color: #ed1c24;
+  border-radius: 50%;
+  padding: 1em;
+  color: #fff;
+  margin-bottom: .5em;
+  font-size: 1em;
+  -webkit-box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+main .boxes .box-container-icons a:hover i, main .boxes .box-container-icons a:focus i {
+  background-color: #616161;
+}
+
+@media (min-width: 500px) {
+  main .boxes .box-container {
+    width: 50%;
+  }
+}
+
+@media (min-width: 800px) {
+  main .boxes .box-container {
+    width: 33.333%;
+  }
+}
+
+main .boxes .box-container .box {
+  background: lightgrey;
+  height: 100vw;
+  border-bottom: thin #fff solid;
+  position: relative;
+}
+
+@media (min-width: 500px) {
+  main .boxes .box-container .box {
+    height: 50vw;
+    border: thin #fff solid;
+  }
+}
+
+@media (min-width: 800px) {
+  main .boxes .box-container .box {
+    height: 33.333vw;
+  }
+}
+
+main .boxes .box-container .box .work-thumbnail {
+  width: 100%;
+  height: 100%;
+  padding: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .boxes .box-container .box .thumbnail1 {
+  background: #000 url("") no-repeat top center/cover;
+}
+
+main .boxes .box-container .box .thumbnail2 {
+  background: #000 url("") no-repeat top center/cover;
+}
+
+main .boxes .box-container .box .thumbnail3 {
+  background: #000 url("") no-repeat top center/cover;
+}
+
+main .boxes .box-container .box .thumbnail4 {
+  background: #000 url("") no-repeat top center/cover;
+}
+
+main .boxes .box-container .box .thumbnail5 {
+  background: #000 url("") no-repeat top center/cover;
+}
+
+main .boxes .box-container .box .thumbnail6 {
+  background: #000 url("") no-repeat top center/cover;
+}
+
+main .boxes .box-container .box-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(151, 12, 17, 0.9);
+  opacity: 0;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+main .boxes .box-container .box-overlay::before {
+  content: 'Work Title';
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 1.8em;
+  width: 100%;
+  bottom: 12%;
+  left: 5%;
+  opacity: 0;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+main .boxes .box-container .box-overlay::after {
+  content: 'Work Description';
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  font-size: 1.3em;
+  width: 100%;
+  bottom: 5%;
+  left: 5%;
+  opacity: 0;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+main .boxes .box-container .box-overlay:hover {
+  opacity: 1;
+}
+
+main .boxes .box-container .box-overlay:hover::before {
+  opacity: 1;
+  font-size: 1.5em;
+}
+
+main .boxes .box-container .box-overlay:hover::after {
+  opacity: 1;
+  font-size: 1em;
+}
+
+main .boxes .box-container .box-overlay1::before {
+  content: 'Pack-It';
+}
+
+main .boxes .box-container .box-overlay1::after {
+  content: 'Collaboration';
+}
+
+main .boxes .box-container .box-overlay2::before {
+  content: 'Weather Dashboard';
+}
+
+main .boxes .box-container .box-overlay2::after {
+  content: 'Individual';
+}
+
+main .boxes .box-container .box-overlay3::before {
+  content: 'Code Quiz';
+}
+
+main .boxes .box-container .box-overlay3::after {
+  content: 'Individual';
+}
+
+main .boxes .box-container .box-overlay4::before {
+  content: 'Team Profile Generator';
+}
+
+main .boxes .box-container .box-overlay4::after {
+  content: 'Individual';
+}
+
+main .boxes .box-container .box-overlay5::before {
+  content: 'Burgers';
+}
+
+main .boxes .box-container .box-overlay5::after {
+  content: 'Individual';
+}
+
+main .boxes .box-container .box-overlay6::before {
+  content: 'Good Cuisine';
+}
+
+main .boxes .box-container .box-overlay6::after {
+  content: 'Collaboration';
+}
+/*# sourceMappingURL=style.css.map */
