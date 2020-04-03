@@ -11,7 +11,7 @@ state = {
 
 render() {
     return (
-        <div id="portfolio">
+        <div className="react-main" id="portfolio">
             <main className="main">
                 <h2 className="card-title main-title mb-4 pb-4 w-100">Portfolio</h2>
                 <div className="boxes">

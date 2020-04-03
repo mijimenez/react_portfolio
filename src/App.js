@@ -9,7 +9,7 @@ import './App_sass/css/App.css';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="react-body">
         <Nav />
         <Switch>
           <Route exact path={["/", "/home"]}>

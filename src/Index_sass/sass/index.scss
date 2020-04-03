@@ -198,11 +198,11 @@ main {
 
 
 /* ----- Sticky Footer */
-body {
+.react-body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  .main {
+  .react-main {
     flex: 1 0 auto;
     min-height: auto;
   }

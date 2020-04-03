@@ -3,7 +3,7 @@ import './sass/style.scss';
 
 function Home() {
   return (
-    <div id="home">
+    <div className="react-main" id="home">
         <div className="hero">
             <div className="wrapper">
                 <h1>Hello.</h1>
