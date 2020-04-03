@@ -4,21 +4,21 @@ import Home from "./pages/home/Home";
 import Portfolio from "./pages/portfolio/Portfolio";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-import './css/';
+import './css/App.css';
 
 function App() {
   return (
     <Router>
       <div>
         <Nav />
-        <Switch>
+        {/* <Switch>
           <Route exact path={["/", "/home"]}>
             <Home />
           </Route>
           <Route exact path="/portfolio">
             <Portfolio />
           </Route>
-        </Switch>
+        </Switch> */}
         <Footer />
       </div>
     </Router>
