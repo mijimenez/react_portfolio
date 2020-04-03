@@ -1,7 +1,10 @@
 @import '../../../Index_sass/sass/index.scss';
 
+#portfolio {
     main {
       margin-top: 8em;
+      width: 100%;
+      max-width: 100%;
       .boxes {
         display: flex;
         flex-wrap: wrap;
@@ -181,3 +184,4 @@
         }
       }
     }
+}
