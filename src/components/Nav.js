@@ -17,7 +17,7 @@ function Nav() {
                     <a className="nav-link" href="#contactMe">Contact</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="portfolio.html">Portfolio</a>
+                    <a className="nav-link" href="/portfolio">Portfolio</a>
                 </li>
                 </ul>
             </div>
