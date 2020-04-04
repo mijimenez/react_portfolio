@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink as AnchorLink } from 'react-router-hash-link';
 
 function Nav() {
   return (
@@ -15,7 +16,7 @@ function Nav() {
                     <Link className="nav-link" to="/">About<span className="sr-only">(current)</span></Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/#contactMe">Contact</Link>
+                    <AnchorLink className="nav-link" to="/#contactMe">Contact</AnchorLink>
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link" to="/portfolio">Portfolio</Link>
