@@ -15,7 +15,6 @@ render() {
             <main className="main">
                 <h2 className="card-title main-title mb-4 pb-4 w-100">Portfolio</h2>
                 <div className="boxes">
-                {/* <PortfolioItem /> */}
 
             {this.state.data.map(item => (
             <PortfolioItem

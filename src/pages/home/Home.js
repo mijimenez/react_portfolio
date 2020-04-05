@@ -47,7 +47,7 @@ function Home() {
                 <h2 className="card-title main-title mb-4 pb-4 w-100">Contact Me</h2>
                 <div className="bio-content">
                     <div className="img-links">
-                        <img src="assets/images/bio-pic.jpg" alt="bio-pic" className="card-img"/>
+                        <img src={process.env.PUBLIC_URL + "/assets/images/bio-pic.jpg"} alt="bio-pic" className="card-img"/>
                         <div className="about-links">
                             <a href="https://www.linkedin.com/in/madeline-jimenez-a3557677/" target="_blank" className="linkedIn">LinkedIn</a>
                             <a href="https://github.com/mijimenez" target="_blank"  className="GitHub">GitHub</a>
