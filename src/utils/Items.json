@@ -8,6 +8,14 @@
         "title": "Good Cuisine"
     },
     {
+        "gitHubLink": "https://github.com/mijimenez/moat",
+        "liveLink": "https://master-of-all-trades.herokuapp.com/",
+        "image": {
+            "backgroundImage": "url('./assets/images/portfolio_images/moat.png')"
+        },
+        "title": "MOAT"
+    },
+    {
         "gitHubLink": "https://github.com/jonesec2/Pack-It",
         "liveLink": "https://jonesec2.github.io/Pack-It/",
         "image": {
@@ -38,13 +46,5 @@
             "backgroundImage": "url('./assets/images/portfolio_images/team-generator.png')"
         },
         "title": "Team Profile Generator"
-    },
-    {
-        "gitHubLink": "https://github.com/mijimenez/bootcamp_burger_node_express_handlebars",
-        "liveLink": "https://gentle-fortress-17484.herokuapp.com/",
-        "image": {
-            "backgroundImage": "url('./assets/images/portfolio_images/burgers.png')"
-        },
-        "title": "Burgers"
     }
 ]
