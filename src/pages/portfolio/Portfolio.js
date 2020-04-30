@@ -13,7 +13,8 @@ render() {
     return (
         <div className="react-main" id="portfolio">
             <main className="main">
-                <h2 className="card-title main-title mb-4 pb-4 w-100">Portfolio</h2>
+                <h2 className="card-title main-title pb-2 w-100">Portfolio</h2>
+                <p className="text-center  mb-5"><span className="roles font-weight-bold">Roles</span> | UX/UI Design &amp; Development</p>
                 <div className="boxes">
 
             {this.state.data.map(item => (
