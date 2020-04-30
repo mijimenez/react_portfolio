@@ -52,7 +52,7 @@ function Home() {
                             <a href="https://www.linkedin.com/in/madeline-jimenez-a3557677/" target="_blank" className="linkedIn">LinkedIn</a>
                             <a href="https://github.com/mijimenez" target="_blank"  className="GitHub">GitHub</a>
                             <a href="https://www.madelinejimenez.com/" target="_blank" className="design-portfolio">Design Portfolio</a>
-                            <a href="assets/images/Madeline_Jimenez_Resume_2020.pdf" download target="_blank"  className="resume">Resume<i className="fas fa-file-download"></i></a>
+                            <a href="assets/images/Madeline_Jimenez_Resume.pdf" download target="_blank"  className="resume">Resume<i className="fas fa-file-download"></i></a>
                         </div>
                         <div className="contact-links">
                             <a href="mailto:madelineijimenez@gmail.com"><i className="fas fa-envelope mr-2"></i>madelineijimenez@gmail.com</a>
